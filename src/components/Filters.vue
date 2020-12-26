@@ -28,6 +28,11 @@ export default class Filters extends Vue {}
 
   p {
     margin-left: 10px;
+    padding: 10px 5px;
+    &:hover {
+      color: white;
+      background: #ffffff38;
+    }
   }
 }
 </style>
